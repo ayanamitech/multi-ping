@@ -1,0 +1,33 @@
+{
+  "name": "multi-ping",
+  "description": "Asynchronous multi-ping script based on Node.js, supports latency tests for multiple servers",
+  "version": "1.0.0",
+  "main": "index.js",
+  "dependencies": {
+    "tcp-ping": "github:mtrusczyk/tcp-ping",
+    "use-config-json": "^1.0.4"
+  },
+  "devDependencies": {
+    "eslint": "^8.16.0"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js",
+    "parse": "node parse_host.js",
+    "lint": "eslint .",
+    "lint:fix": "eslint --fix ."
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ayanamitech/multi-ping.git"
+  },
+  "keywords": [
+    "ping"
+  ],
+  "author": "AyanamiTech <ayanami0330@protonmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/ayanamitech/multi-ping/issues"
+  },
+  "homepage": "https://github.com/ayanamitech/multi-ping#readme"
+}
